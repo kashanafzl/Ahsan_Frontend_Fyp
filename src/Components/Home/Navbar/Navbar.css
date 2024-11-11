@@ -1,0 +1,14 @@
+
+.loginandsignupmainparentbtndiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: end;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+}
+
+
+.loginandsignupmainparentbtndiv button{
+    
+}
