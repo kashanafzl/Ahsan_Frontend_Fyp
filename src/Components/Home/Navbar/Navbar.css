@@ -2,13 +2,136 @@
 .loginandsignupmainparentbtndiv{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: end;
     padding-inline: 2rem;
     padding-block: 2rem;
 }
 
+.bgcolordiv{
+    background: var(--lightbluecolor);
+    height: 100vh;
+}
+
+.iconr {
+    height: 30px;
+    width: 30px;
+
+}
+
 
 .loginandsignupmainparentbtndiv button{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    font-size: 1.7rem;
+    color: black;
+    cursor: pointer;
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    outline: none;
+}
+
+.loginandsignupmainparentbtndiv button:hover{
+    background: black;
+    color: #fff;
     
+}
+
+
+.logoandcategoriesmaindiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    margin-top: -5rem;
+}
+
+.imgandpmaindiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+
+.imgandpmaindiv p{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.maincategoriesdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-inline: 2rem;
+}
+
+
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 4rem;
+}
+
+.herosection h1{
+    font-size: 7rem;
+    font-family: "Kay Pho Du", serif;
+    font-weight: bold;
+}
+
+.heroimg{
+    width: 400px;
+}
+
+
+.reviewcontentdiv{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.25);
+    margin-inline: 4rem;
+    padding: 3rem;
+    margin-block: 4rem;
+    font-family: "Kay Pho Du", serif;
+    font-weight: bold;
+
+}
+
+.reviewcontentdiv h1{
+    color: var(--lightbluecolor);
+    font-size: 5rem;
+}
+
+.reviewcontentdiv h2{
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:800px) {
+    .herosection h1 {
+        font-size: 6rem;
+    }
+
+    .herosection {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+   
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .herosection h1 {
+        font-size: 3rem;
+    }
 }

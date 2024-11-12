@@ -11,3 +11,8 @@
 html{
     font-size: 62.5%;
 }
+
+
+:root{
+    --lightbluecolor : #A6D2D1;
+}
