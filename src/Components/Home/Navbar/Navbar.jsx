@@ -103,12 +103,12 @@ export default function Navbar() {
       <h2>Student</h2>
     </div>
     <div>
-      <h1>10k+</h1>
-      <h2>Student</h2>
+      <h1>90%</h1>
+      <h2>Quality courses</h2>
     </div>
     <div>
-      <h1>10k+</h1>
-      <h2>Student</h2>
+      <h1>4.4</h1>
+      <h2>Rating Mentors</h2>
     </div>
     </div>
 
