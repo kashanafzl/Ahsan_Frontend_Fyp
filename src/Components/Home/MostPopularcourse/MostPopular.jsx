@@ -21,7 +21,7 @@ export default function MostPopular() {
           <img src={books} alt="" />
         </div>
 
-        <div style={{marginTop : '-6rem'}} className="blog1div">
+        <div style={{ marginTop: "-6rem" }} className="blog1div">
           <img src={blog1} alt="" />
           <h1>Introduction to Artificial Intelligence (AI)</h1>
           <p>
@@ -30,46 +30,27 @@ export default function MostPopular() {
             equip you with soug ht-after exp ertize in building{" "}
           </p>
         </div>
-        <div style={{marginTop : '-4rem'}} className="blog1div">
+        <div style={{ marginTop: "-4rem" }} className="blog1div">
           <img src={blog2} alt="" />
-          <h1>IBM AI Developer 
-          Professional Certificate</h1>
+          <h1>IBM AI Developer Professional Certificate</h1>
           <p>
-          This IBM AI Developer Professional Cert
-ificate will equip you with soug ht-after e
-xpertize in building  This IBM AI Develop
-er Professional Certificate will equip you
-with soug ht-after expertize    in  building 
-with soug ht-after expertize   in  building 
+            This IBM AI Developer Professional Cert ificate will equip you with
+            soug ht-after e xpertize in building This IBM AI Develop er
+            Professional Certificate will equip you with soug ht-after expertize
+            in building with soug ht-after expertize in building
           </p>
         </div>
-        <div style={{marginTop : '-2rem'}} className="blog1div">
+        <div style={{ marginTop: "-2rem" }} className="blog1div">
           <img src={blog3} alt="" />
-          <h1>Deep Learning, Computer 
-Vision,Natural Language 
-Processing (NLP)</h1>
+          <h1>
+            Deep Learning, Computer Vision,Natural Language Processing (NLP)
+          </h1>
           <p>
-          The combination of natural langua
-g eprocessing and computer vision
-The  combination f natural languag
-e  processing  and computer vision.
-The combination of natural  langua
-ge processing and computer vision 
+            The combination of natural langua g eprocessing and computer vision
+            The combination f natural languag e processing and computer vision.
+            The combination of natural langua ge processing and computer vision
           </p>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
     </div>
   );
